@@ -53,13 +53,13 @@ const routes = [
     icon: <MdFastfood className="h-6 w-6" />,
     component: <ItemDataTables />,
   },
-  {
-    name: "Data Tables",
-    layout: "/admin",
-    icon: <MdBarChart className="h-6 w-6" />,
-    path: "data-tables",
-    component: <DataTables />,
-  },
+  // {
+  //   name: "Data Tables",
+  //   layout: "/admin",
+  //   icon: <MdBarChart className="h-6 w-6" />,
+  //   path: "data-tables",
+  //   component: <DataTables />,
+  // },
   // {
   //   name: "NFT Marketplace",
   //   layout: "/admin",
