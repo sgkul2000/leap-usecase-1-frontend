@@ -2,10 +2,10 @@ import React from "react";
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
-import DataTables from "views/admin/tables";
 import CategoryDataTables from "views/admin/category";
 import StoreDataTables from "views/admin/store";
 import ItemDataTables from "views/admin/item";
+// import DataTables from "views/admin/tables";
 // import NFTMarketplace from "views/admin/marketplace";
 // import Profile from "views/admin/profile";
 // import RTLDefault from "views/rtl/default";
@@ -14,19 +14,13 @@ import ItemDataTables from "views/admin/item";
 // import SignIn from "views/auth/SignIn";
 
 // Icon Imports
-import {
-  MdHome,
-  MdBarChart,
-  MdStore,
-  MdCategory,
-  MdFastfood,
-} from "react-icons/md";
+import { MdHome, MdStore, MdCategory, MdFastfood } from "react-icons/md";
 
 const routes = [
   // usecase routes
 
   {
-    name: "Main Dashboard",
+    name: "Dashboard",
     layout: "/admin",
     path: "default",
     icon: <MdHome className="h-6 w-6" />,
